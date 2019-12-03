@@ -66,10 +66,18 @@ psv23232.seedbox.io       /home/psv23232/files/CompletedDownloads/radarr/       
 psv23232.seedbox.io       /home/psv23232/files/CompletedDownloads/sonarr/              /downloads/sonarr/
 
 ```
-
 ## Congratulations!
 
 Now you should be all set up. If you have any problems, leave an issue in github and I'll get back to you.
+
+## Updating to newest versions
+
+```
+docker-compose down
+docker-compose pull sonarr radarr jackett
+docker-compose up -d
+```
+
 
 
 TODO:
